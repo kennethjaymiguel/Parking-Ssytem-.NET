@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Parking_System.exe" version="1.0.1.4" publicKeyToken="262303c6c6498549" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="parking.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Parking_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Parking_System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="242176">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8bPg8nUKkQPkampKNPHPnRd3lyX5gELMJHXsZkhIAc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Parking_System.exe" size="1474048">
+      <assemblyIdentity name="Parking_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rToSlXBbl82ZxKgQQoTVNML0HCRavqDwyw93GdR9kpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="parking.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDtICXY1GbQpHFcE2hzQ/SpRmXx+4fg/P9onLUojg90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Parking_System.exe.config" size="543">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gYQpgxeaGFLkV+4KmYYDkoEG+KRfh11DZ6bAMUSIink=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZXYNETHJEIGN\Zxyneth" issuerKeyHash="bfb91f256e1616073d877905f0236acba2aaca33" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>02atDglsjjjMMQZKVKUFvAM1XIbJFvtLP4bpnLsjEdk=</DigestValue></Reference></SignedInfo><SignatureValue>yhusXIghcD2Zo4gVZmQ9mMnV8HD0+/yzSwgPgbMjPT3i6RkSWeKq51Kqnko3hW9hWU8hXi+b3WqqLV8Kma6Ao0ydVmAs5rLXE6ncOlMU72Dof8Z3bwO3YunYMwN2D7uXcVoL+hSsns4GnkHRulfSygOsrte12DaxCPggpB/WxFo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0TqVV6Hv8LYKtmapJkMrVQJRYVQ2puiCkEHN5Msy8oNa/DX9c7KsroLdm5jmqkqecQcxQPnSdSb83CnjDPomUBp2zbkZd73bBeuQH62cZZh/raxaVeIT4eVOnMTmHQg3o9wMlJAEs9cgsCZ5D2aL5ZZlp8RSWVy1dOhEwZdOyc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d91123bb9ce9863f4bfb16c9865c3503bc05a5544a0631cc388e6c090ead66d3" Description="" Url=""><as:assemblyIdentity name="Parking_System.exe" version="1.0.1.4" publicKeyToken="262303c6c6498549" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZXYNETHJEIGN\Zxyneth</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LdbM0QhiMFYyYC5QaG7wz5Md77FlNLjYaqgG68RBU0s=</DigestValue></Reference></SignedInfo><SignatureValue>O2aH1W3ndlBT89b5b90bppS55/aRxHabttisX2Nibzu5xQJL3qBpfhDn7Xt187gAIrr6IjoFEJ6qGFjO8AXWxcxkpzvbKzOcHWeal9Oj8OVOj9MeKHVmWOhbe4492hdWeqc2WX8NEQdUFSMvVK0MzV1gGT0IDaNqqFWDHVS/N/I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0TqVV6Hv8LYKtmapJkMrVQJRYVQ2puiCkEHN5Msy8oNa/DX9c7KsroLdm5jmqkqecQcxQPnSdSb83CnjDPomUBp2zbkZd73bBeuQH62cZZh/raxaVeIT4eVOnMTmHQg3o9wMlJAEs9cgsCZ5D2aL5ZZlp8RSWVy1dOhEwZdOyc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQX+Qj+tQGTZFG1GQzIke5dDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAWgBYAFkATgBFAFQASABKAEUASQBHAE4AXABaAHgAeQBuAGUAdABoMB4XDTIwMTEwMjAzMTE1NloXDTIxMTEwMjA5MTE1NlowMzExMC8GA1UEAx4oAFoAWABZAE4ARQBUAEgASgBFAEkARwBOAFwAWgB4AHkAbgBlAHQAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0TqVV6Hv8LYKtmapJkMrVQJRYVQ2puiCkEHN5Msy8oNa/DX9c7KsroLdm5jmqkqecQcxQPnSdSb83CnjDPomUBp2zbkZd73bBeuQH62cZZh/raxaVeIT4eVOnMTmHQg3o9wMlJAEs9cgsCZ5D2aL5ZZlp8RSWVy1dOhEwZdOyc0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCroMVzlEjNruOeRHA/byYkJzpireLCZiZXI+WGsEpcecMxj/XSqOe/2dhVxO/D6vzXkvaNxscOI2QmAe4xlzvzxac3ei/l2VPNDJISRoB3DtaYBwNi6gD0fJ4u3TuZAco255rKwRZyozjZ1ofVOCIUuPguNjOxM0tRu3uHuYEXUA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

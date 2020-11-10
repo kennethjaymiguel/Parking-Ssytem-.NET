@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Parking_System", "Parking_System\Parking_System.vbproj", "{584EB788-E9CC-492F-8C8F-6511CEF0AB79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584EB788-E9CC-492F-8C8F-6511CEF0AB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584EB788-E9CC-492F-8C8F-6511CEF0AB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584EB788-E9CC-492F-8C8F-6511CEF0AB79}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{584EB788-E9CC-492F-8C8F-6511CEF0AB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584EB788-E9CC-492F-8C8F-6511CEF0AB79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
